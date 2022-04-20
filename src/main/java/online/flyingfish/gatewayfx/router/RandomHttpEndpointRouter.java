@@ -1,4 +1,4 @@
-package online.flyingfish.gateway.router;
+package online.flyingfish.gatewayfx.router;
 
 import java.util.List;
 import java.util.Random;

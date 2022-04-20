@@ -1,4 +1,4 @@
-package online.flyingfish.gateway.outbound.httpclient4;
+package online.flyingfish.gatewayfx.outbound.httpclient4;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,4 +1,4 @@
-//package io.github.kimmking.gateway.outbound;
+//package online.flyingfish.gatewayfx.outbound;
 //
 //import io.netty.bootstrap.Bootstrap;
 //import io.netty.channel.ChannelFuture;

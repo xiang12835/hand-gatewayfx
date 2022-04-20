@@ -1,4 +1,4 @@
-package online.flyingfish.gateway.filter;
+package online.flyingfish.gatewayfx.filter;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.FullHttpRequest;

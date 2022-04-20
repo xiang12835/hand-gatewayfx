@@ -1,4 +1,4 @@
-package online.flyingfish.gateway.inbound;
+package online.flyingfish.gatewayfx.inbound;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;

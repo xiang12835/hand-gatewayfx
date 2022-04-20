@@ -1,11 +1,11 @@
-package online.flyingfish.gateway.outbound.httpclient4;
+package online.flyingfish.gatewayfx.outbound.httpclient4;
 
 
-import online.flyingfish.gateway.filter.HeaderHttpResponseFilter;
-import online.flyingfish.gateway.filter.HttpRequestFilter;
-import online.flyingfish.gateway.filter.HttpResponseFilter;
-import online.flyingfish.gateway.router.HttpEndpointRouter;
-import online.flyingfish.gateway.router.RandomHttpEndpointRouter;
+import online.flyingfish.gatewayfx.filter.HeaderHttpResponseFilter;
+import online.flyingfish.gatewayfx.filter.HttpRequestFilter;
+import online.flyingfish.gatewayfx.filter.HttpResponseFilter;
+import online.flyingfish.gatewayfx.router.HttpEndpointRouter;
+import online.flyingfish.gatewayfx.router.RandomHttpEndpointRouter;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -111,7 +111,7 @@ public class HttpOutboundHandler {
     private void handleResponse(final FullHttpRequest fullRequest, final ChannelHandlerContext ctx, final HttpResponse endpointResponse) throws Exception {
         FullHttpResponse response = null;
         try {
-//            String value = "hello,kimmking";
+//            String value = "hello,flyingfish";
 //            response = new DefaultFullHttpResponse(HTTP_1_1, OK, Unpooled.wrappedBuffer(value.getBytes("UTF-8")));
 //            response.headers().set("Content-Type", "application/json");
 //            response.headers().setInt("Content-Length", response.content().readableBytes());

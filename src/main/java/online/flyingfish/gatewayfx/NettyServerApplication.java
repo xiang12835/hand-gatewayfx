@@ -1,7 +1,7 @@
-package online.flyingfish.gateway;
+package online.flyingfish.gatewayfx;
 
 
-import online.flyingfish.gateway.inbound.HttpInboundServer;
+import online.flyingfish.gatewayfx.inbound.HttpInboundServer;
 
 import java.util.Arrays;
 

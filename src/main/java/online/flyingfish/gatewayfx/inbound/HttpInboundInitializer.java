@@ -1,4 +1,4 @@
-package online.flyingfish.gateway.inbound;
+package online.flyingfish.gatewayfx.inbound;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

@@ -1,8 +1,8 @@
-package online.flyingfish.gateway.inbound;
+package online.flyingfish.gatewayfx.inbound;
 
-import online.flyingfish.gateway.filter.HeaderHttpRequestFilter;
-import online.flyingfish.gateway.filter.HttpRequestFilter;
-import online.flyingfish.gateway.outbound.httpclient4.HttpOutboundHandler;
+import online.flyingfish.gatewayfx.filter.HeaderHttpRequestFilter;
+import online.flyingfish.gatewayfx.filter.HttpRequestFilter;
+import online.flyingfish.gatewayfx.outbound.httpclient4.HttpOutboundHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.FullHttpRequest;
@@ -52,7 +52,7 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
 //    private void handlerTest(FullHttpRequest fullRequest, ChannelHandlerContext ctx) {
 //        FullHttpResponse response = null;
 //        try {
-//            String value = "hello,kimmking";
+//            String value = "hello,flyingfish";
 //            response = new DefaultFullHttpResponse(HTTP_1_1, OK, Unpooled.wrappedBuffer(value.getBytes("UTF-8")));
 //            response.headers().set("Content-Type", "application/json");
 //            response.headers().setInt("Content-Length", response.content().readableBytes());
